@@ -1,0 +1,13 @@
+django-admin startapp pizza  //to start a project
+
+python manage.py runserver   //to run a server
+
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+username: anant
+password: ***********
