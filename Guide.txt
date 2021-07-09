@@ -1,13 +1,23 @@
-django-admin startapp pizza  //to start a project
+django-admin startproject project_name  //to create project
+django-admin startapp app_name //to create app
 
-python manage.py runserver   //to run a server
 
 
-python manage.py makemigrations
 
-python manage.py migrate
+Migration Commands:
+
+1) python manage.py makemigrations
+2) python manage.py showmigrations
+3) python manage.py migrate
+
+
+privileges of an admin: 
 
 python manage.py createsuperuser
 
 username: anant
 password: ***********
+
+
+python manage.py runserver   //to run a server
+
