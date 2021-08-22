@@ -1,4 +1,7 @@
 django-admin startproject project_name  //to create project
+
+workon test
+
 django-admin startapp app_name //to create app
 
 
@@ -21,3 +24,5 @@ password: ***********
 
 python manage.py runserver   //to run a server
 
+
+python manage.py collectstatic
